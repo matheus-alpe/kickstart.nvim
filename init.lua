@@ -448,7 +448,7 @@ require('lazy').setup({
         },
 
         volar = {
-          filetypes = { 'javascriptreact', 'typescriptreact', 'vue', 'json' },
+          filetypes = { 'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json' },
         },
 
         omnisharp = {},
