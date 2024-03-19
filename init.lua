@@ -570,6 +570,8 @@ require('lazy').setup({
       local luasnip = require 'luasnip'
       luasnip.config.setup {}
 
+      luasnip.add_snippets(nil, require 'custom.snippets')
+
       cmp.setup {
         snippet = {
           expand = function(args)
@@ -621,6 +623,7 @@ require('lazy').setup({
           { name = 'nvim_lsp' },
           { name = 'luasnip' },
           { name = 'path' },
+          { name = 'buffer' },
         },
       }
     end,
