@@ -335,7 +335,7 @@ require('lazy').setup({
           vim.diagnostic.config {
             virtual_text = true,
           }
-              
+
           local map = function(keys, func, desc)
             vim.keymap.set('n', keys, func, { buffer = event.buf, desc = 'LSP: ' .. desc })
           end
