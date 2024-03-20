@@ -2,7 +2,7 @@ local utils = require 'custom.snippets.utils'
 
 return {
   utils.snip('test', {
-    utils.text 'func ',
+    utils.text 'func Test',
     utils.insert(1, 'Name'),
     utils.text '(t *testing.T)',
     utils.text { ' {', '' },
